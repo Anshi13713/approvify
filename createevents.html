@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!-- Website - www.codingnepalweb.com -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation in HTML | CodingNepal</title>
+    <link rel="stylesheet" href="createevents.css">
+    <!-- Fontawesome CDN Link For Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+  </head>
+  <body>
+    <form action="thank-you.html">
+      <h2>Book Your Event</h2>
+      <div class="form-group fullname">
+        <label for="fullname">Name of the Club</label>
+        <input type="text" id="fullname" placeholder="enter club name">
+      </div>
+      <div class="form-group email">
+        <label for="email">event name</label>
+        <input type="text" id="email" placeholder="Enter your Event Name">
+      </div>
+      <div class="form-group password">
+        <label for="password">Event Type</label>
+        <input type="password" id="password" placeholder="Enter Event Type">
+        <i id="pass-toggle-btn" class="fa-solid fa-eye"></i>
+      </div>
+      <div class="form-group date">
+        <label for="date">Event Date</label>
+        <input type="date" id="date" placeholder="Select your date">
+      </div>
+      <div class="form-group gender">
+        <label for="gender">Room No</label>
+        <select id="gender">
+          <option value="" selected disabled>Select your desired Room no</option>
+          <option value="101">101</option>
+          <option value="102">102</option>
+          <option value="103">103</option>
+          <option value="104">104</option>
+          <option value="105">105</option>
+          <option value="106">106</option>
+          <option value="107">107</option>
+        </select>
+      </div>
+      <div class="form-group submit-btn">
+        <input type="submit" value="Submit">
+      </div>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
